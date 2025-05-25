@@ -1,0 +1,37 @@
+<form (ngSubmit)="onSubmit()" #shipmentForm="ngForm" class="form-container">
+  <!-- Income Column -->
+  <div class="income-column">
+    <h3>Income</h3>
+    <div class="form-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Income</mat-label>
+        <input matInput type="number" [(ngModel)]="income" name="income" min="0" />
+      </mat-form-field>
+    </div>
+  </div>
+
+  <!-- Costs Column -->
+  <div class="costs-column">
+    <h3>Costs</h3>
+    <div class="form-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Cost</mat-label>
+        <input matInput type="number" [(ngModel)]="cost" name="cost" min="0" />
+      </mat-form-field>
+    </div>
+    <div class="form-field">
+      <mat-form-field appearance="outline">
+        <mat-label>Additional Cost</mat-label>
+        <input matInput type="number" [(ngModel)]="additional_cost" name="additional_cost" min="0" />
+      </mat-form-field>
+    </div>
+  </div>
+
+  <!-- Button Column -->
+  <div class="button-column">
+    <h3>&nbsp;</h3> <!-- Invisible header for alignment -->
+    <button mat-raised-button color="primary" type="submit" class="save-button">
+      Save Shipment
+    </button>
+  </div>
+</form>

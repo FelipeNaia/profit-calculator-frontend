@@ -1,0 +1,57 @@
+// Header/Logo Container
+.header {
+    background-color: #FFB800;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  // DACHSER Logo Styling
+  .dachser-logo {
+    display: inline-block;
+    background-color: #FFB800;
+    color: #003366;
+    padding: 8px 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+    
+    .brand-name {
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      display: block;
+      line-height: 1;
+    }
+    
+    .tagline {
+      font-size: 11px;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      margin-top: 2px;
+      display: block;
+    }
+  }
+  
+  // Alternative single-line version
+  .dachser-logo-inline {
+    display: inline-block;
+    background-color: #FFB800;
+    color: #000;
+    padding: 12px 20px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 2px;
+    
+    .brand-name {
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      margin-right: 12px;
+    }
+    
+    .tagline {
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 0.3px;
+    }
+  }
